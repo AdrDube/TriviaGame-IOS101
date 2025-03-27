@@ -1,44 +1,49 @@
-# Project 3 - Addy's Trivia Game
 
-Submitted by: **Adriel Dube**
+# Project 4 - Trivia Game App
 
- Addy's Tivia Game is an app that provides a general knowledge game from the user in which questions are choosen randomly from 5 different categories, music;history;culture;sports;games
+Submitted by: Adriel Dube
 
-Time spent: **5** hours spent in total
+**Trivia Game App** is an app that allows users to answer trivia questions across various categories. The app fetches trivia questions from the Open Trivia Database API, allowing users to test their knowledge. Players can track their scores and reset the game for a new set of questions.
+
+Time spent: 4 hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [ ] User can view the current question and 4 different answers
-- [ ] User can view the next question after tapping an answer
-- [ ] User can answer at least 3 different questions
-
+- [ ] User can view and answer at least 5 trivia questions.
+- [ ] App retrieves question data from the Open Trivia Database API.
+- [ ] Fetch a different set of questions if the user indicates they would like to reset the game.
+- [ ] Users can see their score after submitting all questions.
+- [ ] True or False questions only have two options.
 
 The following **optional** features are implemented:
 
-- [ ] User can use the vertical orientation of the app on any device
-- [ ] User can track the question they are on and how many questions are left
-- [ ] User can see how many questions they got correct after answering all questions
-- [ ] User should be able to restart the game after they've finished answering all questions
+- [ ] Allow the user to choose a specific category of questions.
+- [ ] Provide the user feedback on whether each question was correct before navigating to the next.
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+- [ ] Added a timer to track how long it takes to complete the trivia game.
+- [ ] Score breakdown by category (e.g., how many questions were answered correctly in each category).
 
 ## Video Walkthrough
-
 <div>
-    <a href="https://www.loom.com/share/bcfee8cb2f38450392fc45a6682b31f5">
+    <a href="https://www.loom.com/share/251ec78f6b744c5c9b4254a13c2ebf43">
     </a>
-    <a href="https://www.loom.com/share/bcfee8cb2f38450392fc45a6682b31f5">
-      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/bcfee8cb2f38450392fc45a6682b31f5-57c744b858ba9ed8-full-play.gif">
+    <a href="https://www.loom.com/share/251ec78f6b744c5c9b4254a13c2ebf43">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/251ec78f6b744c5c9b4254a13c2ebf43-0ce080e262736ba7-full-play.gif">
     </a>
   </div>
 
 ## Notes
 
-This was a very fun project to work on
+During the development of this app, I encountered the following challenges:
+
+- **Handling the API data**: The trivia questions returned from the Open Trivia Database API sometimes contained HTML encoded characters, such as `&quot;` for quotes. 
+- **Managing button states**: The button text font was reverting back to the default settings after setting the question
+
+Regardless, it was a fun app to work on and implement
 
 ## License
 
@@ -55,3 +60,4 @@ This was a very fun project to work on
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
     limitations under the License.
+
