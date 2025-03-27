@@ -1,8 +1,9 @@
-//
-//  DataManager.swift
-//  Trivia
-//
-//  Created by Adriel Dube on 3/12/25.
-//
 
-import Foundation
+class DataManager {
+    
+    static let shared = DataManager() 
+    
+    var correctAttempts: Int = 0
+    
+    private init() {}
+}
